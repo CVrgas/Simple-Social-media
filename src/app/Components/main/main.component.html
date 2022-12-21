@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="card mb-3 " *ngFor="let x of items;" style="max-width: 540px;">
+    
+    <!-- user area -->
+    <div class="user row g-0">
+      <img [src]="[x?.photo?.thumbnailUrl]" class="img-fluid col-md-4 user-img " alt="...">
+      <div class="user-data col-md-6">{{x.user?.name}}</div>
+    </div>
+  
+    <!-- post area -->
+    
+    <div class="post">
+      <h5 class="post-body text-truncate">{{x.body}}</h5>
+      <img [src]="[x?.photo?.url]" class="img-fluid rounded-start post-img" alt="...">
+      <h6 [routerLink]="['/post', x.id]" class="comment-likes stretched-link">comments: {{x.comments?.length}} </h6>
+    </div>
+  </div>
+</div>

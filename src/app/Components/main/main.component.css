@@ -1,0 +1,44 @@
+.container{
+    width: max-content;
+}
+.card{
+    min-width: 700px;
+}
+.user{
+    padding: 5px;
+    margin: 5px;
+}
+.user-img{
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+}
+.user-data{
+    font-size: 30px;
+    text-align: center;
+    border-left: 1px solid rgb(224, 224, 224);
+    margin: auto;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.post{
+    padding: 5px;
+    margin: 5px;
+}
+.post-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-body{
+    margin:  10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.651);
+    border-top: 1px solid rgba(128, 128, 128, 0.651);
+    
+}
+.comment-likes{
+    margin: 5px;
+    color: rgba(128, 128, 128, 0.753);
+}

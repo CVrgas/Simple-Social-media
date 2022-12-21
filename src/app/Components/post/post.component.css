@@ -1,0 +1,16 @@
+.container{
+    padding: 5px;
+    background-color: white;
+}
+.post{
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.123);
+}
+.comment{
+    padding: 20px;
+    border: 10px solid white;
+    background-color: aliceblue;
+}
+.tittle{
+    border-bottom: 2px solid rgb(224, 224, 224);
+}

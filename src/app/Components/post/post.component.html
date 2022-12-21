@@ -1,0 +1,18 @@
+<div class="container">
+    <div>
+        <button [routerLink]="['/home']" class="btn btn-primary btn-sm">back button</button>
+    </div>
+    <div class="post">
+        <h1 class="tittle">tittle: <br>{{actual_post.title}}</h1>
+        <img [src]="[actual_post.photo?.url]" alt="">
+        <h3 class="body">body: <br>{{actual_post.body}}</h3>
+    </div>
+    <div class="comments">
+        <div>
+            <div class="comment" *ngFor="let x of post_comments">
+                <h3 class="tittle">User:<br> {{x.name}}</h3>
+                <h6 class="body">Response:<br> {{x.body}}</h6>
+            </div>
+          </div>
+    </div>
+  </div>
